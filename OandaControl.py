@@ -11,7 +11,7 @@ class OandaControl:
 
     def __init__(self) -> None:
         self.client = oandapyV20.API(
-            access_token = "54d4d31c83471fc4ee91a5a0f6dda36a-deea989a856d8fd98e35d17726906daa", environment="live")
+            access_token = "CONFIDENTIAL", environment="live")
         
         self.id = "001-009-6560569-001"
 
